@@ -1,0 +1,3 @@
+zpool add testpool raidz2 sdd sde sdf sdg sdh sdi sdj sdk sdl sdm sdn sdo
+
+zpool create testpool raidz2 /local-zfs/file0 /local-zfs/file1 /local-zfs/file2 /local-zfs/file3 /local-zfs/file4 /local-zfs/file5 /local-zfs/file6 
